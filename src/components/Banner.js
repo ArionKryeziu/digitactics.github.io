@@ -25,9 +25,9 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, ampunt: 0.7 }}
-              className="text-[55px] font-bold leading-[0.8] lg:text-[110px]"
+              className="text-[50px] font-bold leading-[0.8] lg:text-[80px] mb-5"
             >
-              Nita <span>Aliu</span>
+              Digital Marketing Agency
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -36,11 +36,26 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-[-1]"
             >
-              <span className="text-white mr-4">I am a</span>
+              {/* <span className="text-white mr-8 mb-8 text-[36px]">
+                Digital Marketing Agency
+              </span> */}
               <TypeAnimation
-                sequence={["SMM", 2000, "SEO", 2000]}
+                sequence={[
+                  "SMM",
+                  2000,
+                  "SEO",
+                  2000,
+                  "Design",
+                  2000,
+                  "Web Development",
+                  2000,
+                  "Email Marketing",
+                  2000,
+                  "Affiliate Marketing",
+                  2000,
+                ]}
                 speed={50}
-                className="text-accent"
+                className="text-accent break-normal"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -52,8 +67,11 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem20Lorem20Lorem20Lorem20Lorem20 Lorem20Lorem20Lorem20
-              Lorem20Lorem20Lorem20 Lorem20.
+              Welcome to our digital marketing agency, where we help businesses
+              grow through creative and effective online strategies. Our team of
+              experts is dedicated to delivering personalized solutions that
+              increase your brand's visibility, drive traffic, and generate
+              leads.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
