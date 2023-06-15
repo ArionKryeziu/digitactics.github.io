@@ -47,7 +47,7 @@ const Work = () => {
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-black">Project Title</span>
               </div>
             </div>
           </motion.div>
@@ -74,11 +74,11 @@ const Work = () => {
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-black">Project Title</span>
               </div>
             </div>
             {/* Image */}
-            <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
+            <div className="group relative overflow-hidden border-2 border-black/50 rounded-xl">
               {/* Overlay */}
               <div className="group-hover:bg-black/70 absolute-z-40 transition-all duration-300"></div>
               {/* img */}
@@ -93,7 +93,7 @@ const Work = () => {
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Project Title</span>
+                <span className="text-3xl text-black">Project Title</span>
               </div>
             </div>
           </motion.div>

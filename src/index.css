@@ -5,10 +5,10 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
+    #c3eae4 21.43%,
+    #c3eae4 50.63%,
+    #c3eae4 100%,
+    #c3eae4 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
@@ -16,10 +16,10 @@
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #c3eae4 21.43%,
+    #c3eae4 50.63%,
+    #c3eae4 100%,
+    #c3eae4 117.04%
   );
 }
 
@@ -27,10 +27,10 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #c3eae4 21.43%,
+    #c3eae4 50.63%,
+    #c3eae4 100%,
+    #c3eae4 117.04%
   );
 }
 
@@ -42,7 +42,7 @@
 
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-white;
+    @apply font-secondary text-lg leading-8 text-black;
   }
   .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
@@ -51,7 +51,7 @@
     @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary text-black font-medium;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
