@@ -1,8 +1,8 @@
 import React from "react";
 // Images
-import Image from "../assets/avatar.svg";
+import Image from "../assets/1234.png";
 // Icons
-import { FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 // Type Animation
 import { TypeAnimation } from "react-type-animation";
 // Motion
@@ -55,7 +55,7 @@ const Banner = () => {
                   2000,
                 ]}
                 speed={50}
-                className="text-accent break-normal"
+                className="text-black break-normal"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -81,9 +81,6 @@ const Banner = () => {
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
               <button className="btn btn-lg">Contact me</button>
-              <a href="#" className="text-gradient btn-link">
-                My Portofolio
-              </a>
             </motion.div>
             {/* Socials */}
             <motion.div
@@ -94,10 +91,10 @@ const Banner = () => {
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               <a href="#">
-                <FaYoutube />
+                <FaInstagram />
               </a>
               <a href="#">
-                <FaGithub />
+                <FaFacebook />
               </a>
               <a href="#">
                 <FaLinkedin />
@@ -109,7 +106,9 @@ const Banner = () => {
             variants={fadeIn("down", 0.5)}
             initial="hidden"
             whileInView={"show"}
-            className="hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]"
+            width="300"
+            height="300"
+            className="hidden lg:flex flex-1 max-w-[270px] lg:max-w-[422px]"
           >
             <img src={Image} alt="" />
           </motion.div>

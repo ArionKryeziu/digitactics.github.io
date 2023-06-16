@@ -43,11 +43,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient text-[90px]">SMM</span>
+                <span className="text-white text-[90px]">SMM</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-black">Project Title</span>
+                <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
           </motion.div>
@@ -70,11 +70,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient text-[90px]">SMM</span>
+                <span className="text-white text-[90px]">SMM</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-black">Project Title</span>
+                <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
             {/* Image */}
@@ -89,11 +89,11 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient text-[90px]">SEO</span>
+                <span className="text-white text-[90px]">SEO</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-black">Project Title</span>
+                <span className="text-3xl text-white">Project Title</span>
               </div>
             </div>
           </motion.div>

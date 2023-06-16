@@ -5,10 +5,10 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #c3eae4 21.43%,
-    #c3eae4 50.63%,
-    #c3eae4 100%,
-    #c3eae4 117.04%
+    #fff 21.43%,
+    #fff 50.63%,
+    #fff 100%,
+    #fff 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
@@ -16,10 +16,10 @@
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #c3eae4 21.43%,
-    #c3eae4 50.63%,
-    #c3eae4 100%,
-    #c3eae4 117.04%
+    #fff 21.43%,
+    #fff 50.63%,
+    #fff 100%,
+    #fff 117.04%
   );
 }
 
@@ -35,7 +35,7 @@
 }
 
 .active {
-  color: #fff;
+  color: black;
   padding: 1rem;
   border-radius: 100%;
 }
@@ -45,10 +45,10 @@
     @apply font-secondary text-lg leading-8 text-black;
   }
   .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
+    @apply font-primary text-black text-[32px] mb-6 tracking-[10%] uppercase;
   }
   .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary text-black font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
     @apply rounded-full font-primary text-black font-medium;
@@ -62,9 +62,9 @@
   .btn-link {
     @apply text-base;
   }
-  .text-gradient {
+  /* .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
-  }
+  } */
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
