@@ -18,7 +18,7 @@ const Contact = () => {
             className="flex-1 flex justify-start items-center"
           >
             <div>
-              <h4 className="text-xl uppercase text-black font-medium mb-2 tracking-wide">
+              <h4 className="text-xl uppercase text-white font-medium mb-2 tracking-wide">
                 Get in touch
               </h4>
               <h2 className="text-[45px] uppercase lg:text-[90px] leading-none mb-12">
@@ -32,20 +32,20 @@ const Contact = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start border-black"
+            className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-24 p-6 items-start border-white"
           >
             <input
-              className="bg-transparent border-b border-black py-3 outline-none w-full placeholder:text-black focus:border-black transition-all text-black"
+              className="bg-transparent border-b border-white py-3 outline-none w-full placeholder:text-white focus:border-white transition-all text-white"
               type="text"
               placeholder="Your Name"
             />
             <input
-              className="bg-transparent border-b border-black py-3 outline-none w-full placeholder:text-black focus:border-black transition-all"
+              className="bg-transparent border-b border-white py-3 outline-none w-full placeholder:text-white focus:border-white transition-all"
               type="text"
               placeholder="Your email"
             />
             <textarea
-              className="bg-transparent border-b border-black py-12 outline-none w-full placeholder:text-black focus:border-black transition-all resize-none mb-12"
+              className="bg-transparent border-b border-white py-12 outline-none w-full placeholder:text-white focus:border-white transition-all resize-none mb-12"
               placeholder="Your message"
             ></textarea>
             <button className="btn btn-lg">Send Message</button>

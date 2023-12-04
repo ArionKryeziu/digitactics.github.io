@@ -45,7 +45,7 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat  mb-12 lg:mb-0 text-black"
+            className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat  h-[1000px] mb-12 lg:mb-0 text-black"
           >
             <h2 className="h2 text-white mb-6">What We Do</h2>
             <h3 className="h3 text-white max-w-[455px] mb-16">

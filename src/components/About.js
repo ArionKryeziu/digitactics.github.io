@@ -34,8 +34,7 @@ const About = () => {
           >
             <h2 className="h2 text-white">About Us</h2>
             <h3 className="h3 mb-4">
-              At NewPrint, we are your one-stop solution for all your digital
-              marketing needs.
+              At NewPrint, we will create the best logos, printings and the best websites.
             </h3>
             <p className="mb-6">
               From crafting comprehensive strategies to executing individualized
