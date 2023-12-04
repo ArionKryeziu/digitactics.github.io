@@ -5,10 +5,10 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #FF00FF 21.43%,
-    #FF00FF 50.63%,
-    #FF00FF 100%,
-    #FF00FF 117.04%
+    #A823D1 21.43%,
+    #A823D1 50.63%,
+    #4B23D1 100%,
+    #4B23D1 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
@@ -27,10 +27,10 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #DDA0DD 21.43%,
-    #DDA0DD 50.63%,
-    #DDA0DD 100%,
-    #DDA0DD 117.04%
+    #A823D1 21.43%,
+    #A823D1 50.63%,
+    #4B23D1 100%,
+    #4B23D1 117.04%
   );
 }
 
@@ -42,16 +42,16 @@
 
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-black;
+    @apply font-secondary text-lg leading-8 text-white;
   }
   .h2 {
-    @apply font-primary text-black text-[32px] mb-6 tracking-[10%] uppercase;
+    @apply font-primary text-white text-[32px] mb-6 tracking-[10%] uppercase;
   }
   .h3 {
-    @apply font-primary text-black font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary text-white font-semibold text-[26px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-black font-medium;
+    @apply rounded-full font-primary text-white font-medium;
   }
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
