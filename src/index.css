@@ -5,10 +5,10 @@
 .btn {
   background: linear-gradient(
     92.23deg,
-    #fff 21.43%,
-    #fff 50.63%,
-    #fff 100%,
-    #fff 117.04%
+    #FF00FF 21.43%,
+    #FF00FF 50.63%,
+    #FF00FF 100%,
+    #FF00FF 117.04%
   );
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
@@ -27,15 +27,15 @@
 .active {
   background: linear-gradient(
     92.23deg,
-    #c3eae4 21.43%,
-    #c3eae4 50.63%,
-    #c3eae4 100%,
-    #c3eae4 117.04%
+    #DDA0DD 21.43%,
+    #DDA0DD 50.63%,
+    #DDA0DD 100%,
+    #DDA0DD 117.04%
   );
 }
 
 .active {
-  color: black;
+  color: blueviolet;
   padding: 1rem;
   border-radius: 100%;
 }
@@ -62,9 +62,9 @@
   .btn-link {
     @apply text-base;
   }
-  /* .text-gradient {
+  .text-gradient {
     @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
-  } */
+  }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
