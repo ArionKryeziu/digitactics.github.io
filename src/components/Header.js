@@ -1,6 +1,6 @@
 import React from "react";
 //imagess
-import Logo from "../assets/logofinal.png";
+import Logo from "../assets/bgphototest.png";
 const Header = () => {
   return (
     <header className="py-8">

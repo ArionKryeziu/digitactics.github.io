@@ -1,6 +1,6 @@
 import React from "react";
 // Images
-import Image from "../assets/1234.png";
+import Image from "../assets/bgphototest.png";
 // Icons
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 // Type Animation
@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12">
           {/* text */}
-          <div className="flex-1 text-center font-secondary lg:text-left">
+          <div className="flex-1 text-center font-white lg:text-left">
             <motion.h1
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -41,21 +41,21 @@ const Banner = () => {
               </span> */}
               <TypeAnimation
                 sequence={[
-                  "SMM",
+                  "NEWPRINT",
                   2000,
-                  "SEO",
+                  "PRINT",
                   2000,
                   "Design",
                   2000,
                   "Web Development",
                   2000,
-                  "Email Marketing",
+                  "3D Reklama",
                   2000,
-                  "Affiliate Marketing",
+                  "Reklama",
                   2000,
                 ]}
                 speed={50}
-                className="text-black break-normal"
+                className="text-white break-normal"
                 wrapper="span"
                 repeat={Infinity}
               />

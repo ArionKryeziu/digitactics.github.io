@@ -8,22 +8,27 @@ import { fadeIn } from "../variants";
 //services data
 const services = [
   {
-    name: "Social Media Marketing",
+    name: "PRINT",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
     link: "Learn more",
   },
   {
-    name: "SEO",
+    name: "REKLAMA 3D",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
     link: "Learn more",
   },
   {
-    name: "Social Media Expert",
+    name: "PRINT ON DEMAND",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
     link: "Learn more",
   },
   {
-    name: "Product Branding",
+    name: "WEB   DEVELOPMENT",
+    description: "lorem ipsum dolor sit amet, consectetur adipiscing",
+    link: "Learn more",
+  },
+  {
+    name: "Social Media",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
     link: "Learn more",
   },
@@ -42,11 +47,11 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat  mb-12 lg:mb-0 text-black"
           >
-            <h2 className="h2 text-black mb-6">What We Do</h2>
-            <h3 className="h3 text-black max-w-[455px] mb-16">
-              I am a Freelance SMM and SEO with over 5 years of experience.
+            <h2 className="h2 text-white mb-6">What We Do</h2>
+            <h3 className="h3 text-white max-w-[455px] mb-16">
+              We are a company with more than 10 years of experience in printing and also creating 3D marketing logos.<br/>
             </h3>
-            <button className="btn btn-sm">See my work</button>
+            <button className="btn btn-sm container-flex">See my work</button>
           </motion.div>
           {/* Services */}
           <motion.div

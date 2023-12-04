@@ -32,9 +32,9 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-black">About Us</h2>
+            <h2 className="h2 text-white">About Us</h2>
             <h3 className="h3 mb-4">
-              At Digitactics, we are your one-stop solution for all your digital
+              At NewPrint, we are your one-stop solution for all your digital
               marketing needs.
             </h3>
             <p className="mb-6">
@@ -51,7 +51,7 @@ const About = () => {
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>
-                <div className="test-[40px] font-teritary text-black font-bold mb-2">
+                <div className="test-[40px] font-teritary text-white font-bold mb-2">
                   {inView ? <CountUp start={0} end={100} duration={3} /> : null}
                   +
                 </div>
@@ -60,7 +60,7 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className="test-[40px] font-teritary text-black font-bold mb-2">
+                <div className="test-[40px] font-teritary text-white font-bold mb-2">
                   {inView ? <CountUp start={0} end={5} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
@@ -68,7 +68,7 @@ const About = () => {
                 </div>
               </div>
               <div>
-                <div className="test-[40px] font-teritary text-black font-bold  mb-2">
+                <div className="test-[40px] font-teritary text-white font-bold  mb-2">
                   {inView ? <CountUp start={0} end={100} duration={3} /> : null}
                   +
                 </div>
