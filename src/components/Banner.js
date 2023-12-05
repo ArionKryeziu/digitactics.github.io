@@ -2,7 +2,7 @@ import React from "react";
 // Images
 import Image from "../assets/bgphototest.png";
 // Icons
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
 // Type Animation
 import { TypeAnimation } from "react-type-animation";
 // Motion
@@ -27,7 +27,7 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="text-[50px] font-bold leading-[0.8] lg:text-[80px] mb-5 text-gradient"
             >
-              NEWPRINT-KS
+              NEWPRINT
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -86,14 +86,14 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#">
+              <a href="https://www.instagram.com/newprint_ks/" target="_blank">
                 <FaInstagram />
               </a>
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=61553912956307" target="_blank">
                 <FaFacebook />
               </a>
-              <a href="#">
-                <FaLinkedin />
+              <a href="https://www.tiktok.com/@ariony0" target="_blank">
+                <FaTiktok />
               </a>
             </motion.div>
           </div>

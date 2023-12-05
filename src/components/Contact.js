@@ -3,6 +3,8 @@ import React from "react";
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
+// Icons
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -49,6 +51,29 @@ const Contact = () => {
               placeholder="Mesazhi"
             ></textarea>
             <button className="btn btn-lg">Dergo Mesazhin</button>
+            <motion.div
+              variants={fadeIn("up", 0.7)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, ampunt: 0.7 }}
+              className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
+            >
+              <a href="https://www.instagram.com/newprint_ks/" target="_blank">
+                <FaInstagram />
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61553912956307" target="_blank">
+                <FaFacebook />
+              </a>
+              <a href="https://www.tiktok.com/@ariony0" target="_blank">
+                <FaTiktok />
+              </a>
+              <a href="https://wa.me/+38349251299?text=urlencodedtext  " target="_blank">
+                <FaWhatsapp />
+              </a>
+              <a href="tel://+38349251299" target="_blank">
+                <FaPhone />
+              </a>
+            </motion.div>
           </motion.form>
         </div>
       </div>

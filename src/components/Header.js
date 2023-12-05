@@ -1,6 +1,6 @@
 import React from "react";
 //imagess
-import Logo from "../assets/bgphototest.png";
+import Logo from "../assets/image0-removebg.png";
 const Header = () => {
   return (
     <header className="py-8">
@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="">
-            <img src={Logo} width={150} height={150} alt="logo" />
+            <img src={Logo} width={250} height={250} alt="logo" />
           </a>
           {/* Buttons */}
           <button className="btn btn-sm">Punoni me ne</button>
