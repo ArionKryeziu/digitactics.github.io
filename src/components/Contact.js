@@ -52,10 +52,10 @@ const Contact = () => {
             ></textarea>
             <button className="btn btn-lg">Dergo Mesazhin</button>
             <motion.div
-              variants={fadeIn("up", 0.7)}
+              variants={fadeIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, ampunt: 0.7 }}
+              viewport={{ once: false, amount: 0.2 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               <a href="https://www.instagram.com/newprint_ks/" target="_blank">
