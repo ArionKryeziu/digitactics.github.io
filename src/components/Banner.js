@@ -2,7 +2,7 @@ import React from "react";
 // Images
 import Image from "../assets/bgphototest.png";
 // Icons
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone, FaEnvelope, FaLocationArrow} from "react-icons/fa";
 // Type Animation
 import { TypeAnimation } from "react-type-animation";
 // Motion
@@ -80,10 +80,10 @@ const Banner = () => {
             </motion.div>
             {/* Socials */}
             <motion.div
-              variants={fadeIn("up", 0.7)}
+              variants={fadeIn("up", 0.2)}
               initial="hidden"
               whileInView={"show"}
-              viewport={{ once: false, ampunt: 0.7 }}
+              viewport={{ once: false, amount: 0.2 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
               <a href="https://www.instagram.com/newprint_ks/" target="_blank">
@@ -94,6 +94,18 @@ const Banner = () => {
               </a>
               <a href="https://www.tiktok.com/@ariony0" target="_blank">
                 <FaTiktok />
+              </a>
+              <a href="https://wa.me/+38349251299?text=Pershendetje" target="_blank">
+                <FaWhatsapp />
+              </a>
+              <a href="tel://+38349251299" target="_blank">
+                <FaPhone />
+              </a>
+              <a target="_blank" href="mailto:kryeziuarion15@gmail.com">
+                <FaEnvelope />
+              </a>
+              <a target="_blank" href="https://maps.app.goo.gl/E948E1m42Ar5uu4a9">
+                <FaLocationArrow />
               </a>
             </motion.div>
           </div>
