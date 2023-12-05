@@ -10,27 +10,27 @@ const services = [
   {
     name: "PRINT",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    link: "Learn more",
+    link: "Me Shume",
   },
   {
     name: "REKLAMA 3D",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    link: "Learn more",
+    link: "Me Shume",
   },
   {
     name: "PRINT ON DEMAND",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    link: "Learn more",
+    link: "Me Shume",
   },
   {
     name: "WEB   DEVELOPMENT",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    link: "Learn more",
+    link: "Me Shume",
   },
   {
     name: "Social Media",
     description: "lorem ipsum dolor sit amet, consectetur adipiscing",
-    link: "Learn more",
+    link: "Me Shume",
   },
 ];
 
@@ -47,11 +47,11 @@ const Services = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat  h-[1000px] mb-12 lg:mb-0 text-black"
           >
-            <h2 className="h2 text-white mb-6">What We Do</h2>
+            <h2 className="h2 text-white mb-6 mt-20">Qka bejme ne</h2>
             <h3 className="h3 text-white max-w-[455px] mb-16">
-              We are a company with more than 10 years of experience in printing and also creating 3D marketing logos.<br/>
+            Jemi një kompani me përvojë mbi 10 vjet në fushën e printimit dhe gjithashtu në krijimin e logove marketingut në 3D.<br/>
             </h3>
-            <button className="btn btn-sm container-flex">See my work</button>
+            <button className="btn btn-sm container-flex">Shikoni Punet Tona</button>
           </motion.div>
           {/* Services */}
           <motion.div

@@ -19,10 +19,10 @@ const Contact = () => {
           >
             <div>
               <h4 className="text-xl uppercase text-white font-medium mb-2 tracking-wide">
-                Get in touch
+                Mos Hezitoni Te Na Kontaktoni
               </h4>
               <h2 className="text-[45px] uppercase lg:text-[90px] leading-none mb-12">
-                Let's work <br /> together!
+                Ne mund te punojm <br /> Bashke
               </h2>
             </div>
           </motion.div>
@@ -37,18 +37,18 @@ const Contact = () => {
             <input
               className="bg-transparent border-b border-white py-3 outline-none w-full placeholder:text-white focus:border-white transition-all text-white"
               type="text"
-              placeholder="Your Name"
+              placeholder="Emri"
             />
             <input
               className="bg-transparent border-b border-white py-3 outline-none w-full placeholder:text-white focus:border-white transition-all"
               type="text"
-              placeholder="Your email"
+              placeholder="Email"
             />
             <textarea
               className="bg-transparent border-b border-white py-12 outline-none w-full placeholder:text-white focus:border-white transition-all resize-none mb-12"
-              placeholder="Your message"
+              placeholder="Mesazhi"
             ></textarea>
-            <button className="btn btn-lg">Send Message</button>
+            <button className="btn btn-lg">Dergo Mesazhin</button>
           </motion.form>
         </div>
       </div>

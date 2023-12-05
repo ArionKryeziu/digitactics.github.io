@@ -11,7 +11,7 @@ const Header = () => {
             <img src={Logo} width={150} height={150} alt="logo" />
           </a>
           {/* Buttons */}
-          <button className="btn btn-sm">Work with us</button>
+          <button className="btn btn-sm">Punoni me ne</button>
         </div>
       </div>
     </header>

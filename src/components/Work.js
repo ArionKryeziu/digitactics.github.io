@@ -23,13 +23,12 @@ const Work = () => {
             {/* Text */}
             <div>
               <h2 className="h2 leading-tight text-accent">
-                My latest <br /> Work
+                Punimet e  <br /> Fundit
               </h2>
               <p className="max-w-sm mb-16">
-                Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-                ipsumLorem ipsumLorem ipsum
+                Ketu mund ti gjeni punimet e fundit!
               </p>
-              <button className="btn btn-sm">View all projects</button>
+              <button className="btn btn-sm">Shikoni Te Gjitha Projektet</button>
             </div>
             {/* Image */}
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
@@ -43,7 +42,7 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-white text-[90px]">SMM</span>
+                <span className="text-white text-[90px]">Reklama 3D</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -70,7 +69,7 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-white text-[90px]">SMM</span>
+                <span className="text-white text-[90px]">Printimet</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
@@ -89,7 +88,7 @@ const Work = () => {
               />
               {/* pretitle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-white text-[90px]">SEO</span>
+                <span className="text-white text-[90px]">Social Media Marketing</span>
               </div>
               {/* Title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">

@@ -25,9 +25,9 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, ampunt: 0.7 }}
-              className="text-[50px] font-bold leading-[0.8] lg:text-[80px] mb-5"
+              className="text-[50px] font-bold leading-[0.8] lg:text-[80px] mb-5 text-gradient"
             >
-              Digital Marketing Agency
+              NEWPRINT-KS
             </motion.h1>
             <motion.div
               variants={fadeIn("up", 0.4)}
@@ -47,7 +47,7 @@ const Banner = () => {
                   2000,
                   "Design",
                   2000,
-                  "Web Development",
+                  "WebDevelopment",
                   2000,
                   "3D Reklama",
                   2000,
@@ -55,7 +55,7 @@ const Banner = () => {
                   2000,
                 ]}
                 speed={50}
-                className="text-white break-normal"
+                className="text-gradient break-normal"
                 wrapper="span"
                 repeat={Infinity}
               />
@@ -67,11 +67,7 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Welcome to our digital marketing agency, where we help businesses
-              grow through creative and effective online strategies. Our team of
-              experts is dedicated to delivering personalized solutions that
-              increase your brand's visibility, drive traffic, and generate
-              leads.
+              Mirë se vini në NEWPRINT, destinacioni juaj për stil personalizuar dhe shprehje! Zbuloni shërbimet e printimit të personalizuar me cilësi të lartë për rroba dhe më shumë. Nga veshjet e bukura deri te printime unike, ne sjellim ide të tua në jetë me ngjyra tërheqëse dhe cilësi të qëndrueshme. Ngriti pamjen tënde dhe hapsirën lehtë – fillo krijimin me NEWPRINT sot!
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
@@ -80,7 +76,7 @@ const Banner = () => {
               viewport={{ once: false, ampunt: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg">Na Kontaktoni</button>
             </motion.div>
             {/* Socials */}
             <motion.div

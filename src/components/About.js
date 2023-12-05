@@ -32,20 +32,16 @@ const About = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="flex-1"
           >
-            <h2 className="h2 text-white">About Us</h2>
+            <h2 className="h2 text-white">Rreth Nesh</h2>
             <h3 className="h3 mb-4">
-              At NewPrint, we will create the best logos, printings and the best websites.
+            Tek NewPrint, krijojmë logotë dhe printime të jashtëzakonshme, bashkë me faqe të internetit të dizajnuara me kujdes dhe inovacion.
             </h3>
             <p className="mb-6">
-              From crafting comprehensive strategies to executing individualized
-              tactics, we cover every aspect of your brand's online journey. Our
-              services include search engine optimization (SEO), pay-per-click
-              (PPC) advertising, social media management, content marketing,
-              website development, email marketing, captivating design,
-              compelling ad campaigns, and much more. Our team of skilled
-              designers creates visually stunning assets that align with your
-              brand identity, while our advertising experts craft targeted
-              campaigns to reach your ideal audience and drive conversions.
+            Ne jemi NEWPRINT, një ekip pasionant i përkushtuar për të sjellë personalizim dhe kreativitet në stilin tuaj të përditshëm. Me një përvojë të pasur në printim të personalizuar, ofrojmë një gamë të gjerë të shërbimeve që përfshijnë veshje të bukura dhe printime unike.
+
+Për ne, çdo produkt është një përsiatje e historisë suaj personale. Përdorimi i teknologjisë më moderne të printimit siguron cilësi të lartë dhe detaje të theksuara në çdo kriim tonin. Qëllimi ynë është të ju ndihmojmë të shfaqni individualitetin tuaj nëpërmjet një kombinimi të shkëlqimit, personalizimit dhe çmimit të arsyeshëm.
+
+Bashkohuni me ne në udhën tuaj të stilizimit dhe krijimit. NEWPRINT - ku krijueshmëria takon cilësinë!
             </p>
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
@@ -55,7 +51,7 @@ const About = () => {
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Projects <br /> Completed
+                  Projekte te  <br /> Kompletuara
                 </div>
               </div>
               <div>
@@ -63,7 +59,7 @@ const About = () => {
                   {inView ? <CountUp start={0} end={5} duration={3} /> : null}
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Years of <br /> Experience
+                  Vite <br /> Eksperience
                 </div>
               </div>
               <div>
@@ -72,12 +68,12 @@ const About = () => {
                   +
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied <br /> Clients
+                  Klient e  <br /> Knaqur
                 </div>
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg">Contact us</button>
+              <button className="btn btn-lg">Na Kontaktoni</button>
             </div>
           </motion.div>
         </div>
