@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 // Icons
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -72,6 +72,9 @@ const Contact = () => {
               </a>
               <a href="tel://+38349251299" target="_blank">
                 <FaPhone />
+              </a>
+              <a target="_blank" href="mailto:kryeziuarion15@gmail.com">
+                <FaEnvelope />
               </a>
             </motion.div>
           </motion.form>
