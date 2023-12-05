@@ -67,7 +67,7 @@ const Contact = () => {
               <a href="https://www.tiktok.com/@ariony0" target="_blank">
                 <FaTiktok />
               </a>
-              <a href="https://wa.me/+38349251299?text=urlencodedtext  " target="_blank">
+              <a href="https://wa.me/+38349251299?text=Pershendetje" target="_blank">
                 <FaWhatsapp />
               </a>
               <a href="tel://+38349251299" target="_blank">
