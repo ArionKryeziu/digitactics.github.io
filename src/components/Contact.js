@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../variants";
 // Icons
-import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTiktok, FaWhatsapp, FaPhone, FaEnvelope, FaLocationArrow } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <section className="py-16 lg:section" id="contact">
-      <div className="container mx-auto">
+      <div className="container mx-12">
         <div className="flex flex-col lg:flex-row">
           {/* Text */}
           <motion.div
@@ -75,6 +75,9 @@ const Contact = () => {
               </a>
               <a target="_blank" href="mailto:kryeziuarion15@gmail.com">
                 <FaEnvelope />
+              </a>
+              <a target="_blank" href="https://maps.app.goo.gl/E948E1m42Ar5uu4a9">
+                <FaLocationArrow />
               </a>
             </motion.div>
           </motion.form>

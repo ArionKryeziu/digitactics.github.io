@@ -16,21 +16,21 @@
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #4B23D1 21.43%,
-    #4B23D1 50.63%,
-    #509F65 100%,
-    #509F65 117.04%
+    #E600FF 21.43%,
+    #E600FF 50.63%,
+    #FFEF00 100%,
+    #FFEF00 117.04%
   );
 }
-
+/* Buttonat e menys per pages */
 .gradient,
 .active {
   background: linear-gradient(
     92.23deg,
-    #A823D1 21.43%,
-    #A823D1 50.63%,
-    #4B23D1 100%,
-    #4B23D1 117.04%
+    #ffff 21.43%,
+    #ffff 50.63%,
+    #ffff 100%,
+    #ffff 117.04%
   );
 }
 
